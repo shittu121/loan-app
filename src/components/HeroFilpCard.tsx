@@ -16,41 +16,45 @@ export const HeroFlipCard = () => {
 
   const flipCards = [
     {
-      description: "Access quick and reliable loan services tailored to your needs.",
-      image: "/images/loan5.jpg",
-      subtitle: "Secure Your Future with Easy Loans",
-      title: "Secure Easy Loans",
-    },
-    {
-      description: "Enjoy stress-free repayments with our flexible loan plans.",
+      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
       image: "/images/loan1.jpg",
-      subtitle: "Flexible Repayment Options",
-      title: "Flexible Repayment Options",
+      rotate: "x",
+      subtitle: "Software Engineer",
+      title: "Bibek Bhattarai",
     },
     {
-      description: "Get approved for a loan in minutes, not days.",
+      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
       image: "/images/loan2.jpg",
-      subtitle: "Fast Approval Process",
-      title: "Fast Approval Process",
+      rotate: "x",
+      subtitle: "Loan2",
+      title: "Bibek Bhattarai",
     },
     {
-      description: "Benefit from competitive interest rates on all loan types.",
+      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
       image: "/images/loan3.jpg",
-      subtitle: "Low Interest Rates",
-      title: "Low Interest Rates",
+      rotate: "x",
+      subtitle: "Loan3",
+      title: "Bibek Bhattarai",
+    },
+    {
+      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
+      image: "/images/loan4.jpg",
+      rotate: "x",
+      subtitle: "Loan5",
+      title: "Bibek Bhattarai",
     },
   ];
 
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full h-auto overflow-x-hidden"
+      className="w-full h-auto overflow-hidden"
     >
       <CarouselContent>
         {flipCards.map((card, index) => (
           <CarouselItem
             key={index}
-            className="px-2 basis-full lg:basis-1/3 overflow-hidden" // 1 on small, 3 on large
+            className="px-2 basis-full lg:basis-1/3 md:basis-2/4" // 1 on small, 3 on large
           >
             <div className="h-full flex justify-center items-center">
               <FlipCard

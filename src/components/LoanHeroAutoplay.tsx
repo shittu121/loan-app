@@ -59,7 +59,7 @@ export function LoanHeroAutoplay() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full h-screen relative"
+      className="w-full h-[80vh] lg:h-screen md:h-screen relative"
     >
       <CarouselContent
         onMouseEnter={() => plugin.current.stop()}  // Pause on hover
