@@ -1,3 +1,4 @@
+import { FastEasy } from "@/components/FastEasy";
 import { HeroSection2 } from "@/components/HeroSection2";
 import { HeroSublogo1, HeroSublogo2, HeroSublogo3, HeroSublogo4 } from "@/components/HeroSublogo";
 import { LoanHeroAutoplay } from "@/components/LoanHeroAutoplay";
@@ -15,6 +16,7 @@ export default function Home() {
       <div className="mt-0 lg:mt-20 overflow-hidden">
         <HeroSection2 />
       </div>
+      <FastEasy />
     </div>
   );
 }

@@ -16,32 +16,28 @@ export const HeroFlipCard = () => {
 
   const flipCards = [
     {
-      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
+      description: "Access quick and reliable loan services tailored to your needs.",
+      image: "/images/loan5.jpg",
+      subtitle: "Secure Your Future with Easy Loans",
+      title: "Secure Easy Loans",
+    },
+    {
+      description: "Enjoy stress-free repayments with our flexible loan plans.",
       image: "/images/loan1.jpg",
-      rotate: "x",
-      subtitle: "Software Engineer",
-      title: "Bibek Bhattarai",
+      subtitle: "Flexible Repayment Options",
+      title: "Flexible Repayment Options",
     },
     {
-      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
+      description: "Get approved for a loan in minutes, not days.",
       image: "/images/loan2.jpg",
-      rotate: "x",
-      subtitle: "Loan2",
-      title: "Bibek Bhattarai",
+      subtitle: "Fast Approval Process",
+      title: "Fast Approval Process",
     },
     {
-      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
+      description: "Benefit from competitive interest rates on all loan types.",
       image: "/images/loan3.jpg",
-      rotate: "x",
-      subtitle: "Loan3",
-      title: "Bibek Bhattarai",
-    },
-    {
-      description: "I am a full-stack developer with a passion for building beautiful and functional applications.",
-      image: "/images/loan4.jpg",
-      rotate: "x",
-      subtitle: "Loan5",
-      title: "Bibek Bhattarai",
+      subtitle: "Low Interest Rates",
+      title: "Low Interest Rates",
     },
   ];
 
