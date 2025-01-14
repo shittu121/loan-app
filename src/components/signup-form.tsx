@@ -31,7 +31,6 @@ export default function SignupForm() {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
 
-      console.log("User registered successfully:", user);
       toast("User registered successfully!");
 
       // Save additional user information (first name, last name, role) to Firestore
@@ -44,7 +43,9 @@ export default function SignupForm() {
       });
 
       console.log("User data stored in Firestore");
-      router.push("/sign-in");
+      router.push("/");
+
+
 
       // Reset form data
       setFormData({
