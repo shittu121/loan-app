@@ -2,6 +2,9 @@ import { FastEasy } from "@/components/FastEasy";
 import { HeroSection2 } from "@/components/HeroSection2";
 import { HeroSublogo1, HeroSublogo2, HeroSublogo3, HeroSublogo4 } from "@/components/HeroSublogo";
 import { LoanHeroAutoplay } from "@/components/LoanHeroAutoplay";
+import Testimonial from "@/components/Tesmonials";
+import { WeHelp } from "@/components/WeHelp";
+import { WhyUS } from "@/components/WhyUs";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
         <HeroSection2 />
       </div>
       <FastEasy />
+      <WhyUS />
+      <Testimonial />
+      <WeHelp />
     </div>
   );
 }
